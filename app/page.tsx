@@ -71,7 +71,7 @@ export default function Page() {
      
       <Chat />
       <p className="my-4 text-neutral-300">
-        <span className="opacity-50">Built by</span> Paras Bansal
+        <span className="opacity-50">Built by</span> A.B.C
       </p>
     </main>
   )
