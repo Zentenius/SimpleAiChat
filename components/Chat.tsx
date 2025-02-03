@@ -26,7 +26,7 @@ export default function Chat() {
   });
 
   return (
-    <div className="flex flex-col w-full max-w-lg rounded-lg bg-muted/50">
+    <div className="flex flex-col w-full  max-w-3xl rounded-lg bg-muted/50">
       <div
         className="min-h-[50vh] h-[50vh] max-h-[50vh]  p-4"
         ref={chatRef}

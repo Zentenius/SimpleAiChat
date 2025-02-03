@@ -14,7 +14,7 @@ export default function Page() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24">
+    <main className="flex min-h-screen flex-col items-center justify-start md:p-24 p-5">
             {/**<div className="flex items-center justify-center min-h-screen bg-gray-100">
       <Card className="w-full max-w-2xl">
         <CardHeader>
