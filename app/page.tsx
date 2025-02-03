@@ -11,27 +11,6 @@ import Chat from "@/components/Chat"
 
 
 export default function Page() {
-  /*const [messages, setMessages] = useState<Array<{ role: string; content: string }>>([])
-  const [input, setInput] = useState("")
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    if (input.trim() === "") return
-
-    // Add user message
-    setMessages((prevMessages) => [...prevMessages, { role: "user", content: input }])
-
-    // Add dummy AI response
-    setTimeout(() => {
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { role: "ai", content: "This is a dummy response. Replace me with actual AI logic." },
-      ])
-    }, 500)
-
-    setInput("")
-  }
-    */
   const { messages, input, handleInputChange, handleSubmit } = useChat();
 
   return (
